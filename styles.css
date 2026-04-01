@@ -628,8 +628,13 @@ body {
 }
 
 .hero-video-wrap {
-  flex: 1;
+  flex: 0 0 55%;
   min-width: 0;
+}
+
+.hero-flow {
+  flex: 1;
+  align-self: center;
 }
 
 .hero-copy--centered {
@@ -640,6 +645,19 @@ body {
 
 .hero-copy--centered .cta-row {
   justify-content: flex-start;
+}
+
+.hero-copy--centered .cta-row--solo {
+  justify-content: flex-start;
+}
+
+.hero-copy--centered .cta-row--solo .cta-mailto {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.hero-copy--centered .cta-row--solo .cta-subtext {
+  align-self: flex-start;
 }
 
 @media (max-width: 640px) {
