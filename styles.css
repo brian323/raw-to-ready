@@ -523,7 +523,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 1.25rem;
-  align-items: start;
+  align-items: center;
 }
 
 .testimonial-video {
@@ -1104,17 +1104,4 @@ input[type="file"] {
 
 .footer-inner a:hover {
   color: var(--text);
-}
-/* Hero video */
-.hero-video-wrap {
-  width: 100%;
-  max-width: 720px;
-  margin: 0 auto 24px;
-  text-align: center;
-}
-
-.hero-video-wrap video {
-  width: 100%;
-  border-radius: 16px;
-  display: block;
 }
