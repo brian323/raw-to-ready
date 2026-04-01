@@ -621,7 +621,7 @@ body {
 
 .hero-video-row {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   gap: 2rem;
   max-width: 860px;
   margin: 0 auto 2rem;
