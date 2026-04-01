@@ -523,7 +523,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 1.25rem;
-  align-items: center;
+  align-items: start;
 }
 
 .testimonial-video {
