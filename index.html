@@ -4,35 +4,37 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Raw To Ready</title>
-  <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body>
-
-<section style="text-align:center; padding:40px;">
+<body style="font-family: Arial; text-align: center; padding: 40px;">
 
 <h1>Turn what you already have into assets you can actually use</h1>
-<div style="max-width:700px; margin:20px auto; text-align:center;">
-
 
 <div style="max-width:700px; margin:20px auto;">
-  <video controls width="100%">
-    <source src="videos/YOUR-VIDEO.mp4" type="video/mp4">
+  <video controls playsinline width="100%" poster="videos/lynette-2-poster.png">
+    <source src="videos/lynette-2.mp4" type="video/mp4">
   </video>
 </div>
+
+<p>You don’t need more ideas — you need something you can actually send.</p>
+
+<br>
 
 <a href="https://calendly.com/brian-my6fa/intro-meeting-with-brian" target="_blank">
   Book 15 minute call
 </a>
 
-<form action="https://formspree.io/f/xqegbvgn" method="POST" style="margin-top:20px;">
+<br><br>
+
+<form action="https://formspree.io/f/xqegbvgn" method="POST">
+  <input type="hidden" name="_redirect" value="https://rawtoreadystudio.com/thank-you.html" />
+
   <input type="text" name="name" placeholder="Name" required /><br><br>
   <input type="email" name="email" placeholder="Email" required /><br><br>
-  <textarea name="message" placeholder="What do you need?" required></textarea><br><br>
+  <textarea name="details" placeholder="What do you need?" required></textarea><br><br>
+
   <button type="submit">Send</button>
 </form>
-
-</section>
 
 </body>
 </html>
